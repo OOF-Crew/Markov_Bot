@@ -3,8 +3,8 @@ import os.path, pickle, hashlib, logging, time, sys, traceback, random, unicoded
 # minimal Telegram bot library
 SENT = False
 
-T = "BOT_TOKEN_GOES_HERE"
-UA = "1340072491:AAEW4IdLxp4_zqGQyTsb-X4OVsUgCNQb4EA"
+T = "1340072491:AAEW4IdLxp4_zqGQyTsb-X4OVsUgCNQb4EA"
+UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
 custom_urlopen = lambda u,**kw:urllib.request.urlopen(urllib.request.Request(u, headers={'User-Agent': UA}),**kw)
 class TelegramBot():
     class attribute_dict():
