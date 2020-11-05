@@ -3,7 +3,7 @@ import os.path, pickle, hashlib, logging, time, sys, traceback, random, unicoded
 # minimal Telegram bot library
 SENT = False
 
-T = "BOT_TOKEN_GOES_HERE"
+T = "1340072491:AAEW4IdLxp4_zqGQyTsb-X4OVsUgCNQb4EA"
 UA = "A_BROWSER_USER_AGENT_GOES_HERE"
 custom_urlopen = lambda u,**kw:urllib.request.urlopen(urllib.request.Request(u, headers={'User-Agent': UA}),**kw)
 class TelegramBot():
